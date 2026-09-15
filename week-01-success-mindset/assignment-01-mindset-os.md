@@ -33,7 +33,8 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe success is not only about getting good marks or earning a high salary. Many students around me think that good marks, a good placement, and a high package are the main signs of success, but I see it differently. For me, success means becoming good at something I am genuinely passionate about, continuously learning, earning from my skills, and feeling satisfied with the work I do. I am passionate about becoming an Agentic AI Engineer because I enjoy using AI tools to build projects and solve real-world problems. Whenever I complete a project, I feel genuinely happy and satisfied because I have learned something new. Even after becoming an AI Engineer, I don't want to stop learning. AI is changing very quickly, so I want to keep learning new tools and technologies and continue solving real-world problems through AI. For me, that feeling of learning, creating, and improving is what makes me feel successful.
+
 
 ---
 
@@ -55,11 +56,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Using AI can help me build projects faster, but if I don't understand the code it generates, I will eventually fall behind in my own learning.
 
 ### Evidence from my life
 
-Add your answer here...
+While learning Python and AI, I started using AI tools to build projects faster. Sometimes the AI generated a large amount of code that I could not fully understand. I realized that although my project could work, my actual understanding was not improving at the same speed. This made me go back and focus more on learning the fundamentals.
 
 ---
 
@@ -67,11 +68,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Building real projects teaches me practical concepts much faster than only studying them theoretically.
+
 
 ### Evidence from my life
 
-Add your answer here...
+Before I started building projects, I didn't really understand what AI was, how AI models and agents worked, or concepts like prompt engineering. While working on my own projects, I started encountering these concepts and had to learn how they actually work. Building projects made AI much more understandable and practical for me.
 
 ---
 
@@ -79,11 +81,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+When I stop learning for several days, I lose momentum and feel that I am falling behind.
+
 
 ### Evidence from my life
 
-Add your answer here...
+I have worked on several projects while also managing college, and I have been stuck many times. There were also periods when I stopped learning for a few days. When I came back, I felt like I had fallen behind compared with my friends. This showed me that consistent progress is important, even if the progress is small.
 
 ---
 
