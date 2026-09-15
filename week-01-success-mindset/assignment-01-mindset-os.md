@@ -375,14 +375,14 @@ Every weekday from 7:00–8:00 PM, I will complete one focused learning or proje
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
+https://lnkd.in/p/dA_6hdvB
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: https://lnkd.in/p/dA_6hdvB  
+- Blog / Medium : https://medium.com/@varunbadri2028/week-1-reflection-building-my-mindset-os-4e413b8fb35a?postPublishedType=initial 
 
 ---
 
