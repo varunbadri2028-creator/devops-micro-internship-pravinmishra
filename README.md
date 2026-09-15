@@ -71,7 +71,7 @@ This is not a course. It is an internship-style program — real deployments, re
  [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
 
 <!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -131,7 +131,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ completed | ✅ completed | https://www.linkedin.com/posts/varun-kumar-221a6b403_from-knowing-how-to-use-applications-activity-7504942956643196928-6Pc5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGc02XkBnQahz2VLCDcQNfkx30-Ih7vOlOo| https://medium.com/@varunbadri2028/my-first-steps-into-devops-understanding-what-happens-behind-the-applications-we-use-9ebb619b8c5a|
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 01 | Success Mindset | ✅ Not Started | ✅ Pending | https://lnkd.in/p/dA_6hdvB | https://medium.com/@varunbadri2028/week-1-reflection-building-my-mindset-os-4e413b8fb35a?postPublishedType=initial|
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
