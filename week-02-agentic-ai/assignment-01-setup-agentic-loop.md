@@ -27,7 +27,8 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-Add your screenshot here.
+<img width="963" height="765" alt="Screenshot 2026-09-26 at 10 47 16" src="https://github.com/user-attachments/assets/1104c277-69d8-4ad4-b24d-bdbdd4ec23d5" />
+
 
 ---
 
