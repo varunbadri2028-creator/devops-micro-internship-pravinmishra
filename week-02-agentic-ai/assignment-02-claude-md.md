@@ -67,7 +67,8 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+<img width="1440" height="900" alt="task4_screenshot" src="https://github.com/user-attachments/assets/43246b4d-d022-492e-aab2-d58affb987c8" />
+
 
 ---
 
