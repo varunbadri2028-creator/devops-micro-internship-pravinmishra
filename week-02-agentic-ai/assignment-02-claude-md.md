@@ -20,7 +20,8 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-![Uploading Screenshot 2026-09-26 at 11.15.10.png…]()
+<img width="896" height="734" alt="Screenshot 2026-09-26 at 11 15 10" src="https://github.com/user-attachments/assets/66f9f2b5-e526-4cfa-b8c0-03a77aba66fd" />
+
 
 
 ---
