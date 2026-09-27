@@ -60,8 +60,7 @@ inherit allows the tf-writer agent to use the model configured for the current C
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-<img width="1212" height="606" alt="Screenshot 2026-09-27 at 12 32 35" src="https://github.com/user-attachments/assets/8202caaf-3f50-4730-bf78-af90adfc2d41" />
-
+<img width="1117" height="596" alt="Screenshot 2026-09-27 at 12 34 14" src="https://github.com/user-attachments/assets/aaa25bc6-f5ef-4499-ab22-35e030cf649f" />
 
 ---
 
@@ -74,15 +73,14 @@ Trigger the security auditor agent and analyze the generated security report for
 ### Evidence
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
-<img width="944" height="564" alt="Screenshot 2026-09-27 at 12 47 35" src="https://github.com/user-attachments/assets/74c540ad-e564-44c1-8422-331e593d115d" />
+<img width="944" height="564" alt="Screenshot 2026-09-27 at 12 47 35" src="https://github.com/user-attachments/assets/efc92fcd-b2f5-4a33-9faf-3cd3650b8cac" />
 
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-<img width="1212" height="606" alt="Screenshot 2026-09-27 at 12 32 35" src="https://github.com/user-attachments/assets/7b63b565-6155-42c6-90cc-b178f69fe334" />
-
+<img width="809" height="437" alt="Screenshot 2026-09-27 at 12 44 20" src="https://github.com/user-attachments/assets/365eb493-e6d0-4de5-9cfc-4322d0a58b9e" />
 
 ---
 
