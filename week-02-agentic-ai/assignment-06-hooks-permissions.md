@@ -20,7 +20,8 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-Add your screenshot here.
+<img width="596" height="741" alt="Screenshot 2026-09-27 at 21 44 42" src="https://github.com/user-attachments/assets/e7d03775-f9d7-4b12-a418-c9ea3e454dc9" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+<img width="1130" height="762" alt="Screenshot 2026-09-27 at 21 47 10" src="https://github.com/user-attachments/assets/02bada62-1fe9-4b78-874f-dc1b95794a8b" />
+
 
 ---
 
