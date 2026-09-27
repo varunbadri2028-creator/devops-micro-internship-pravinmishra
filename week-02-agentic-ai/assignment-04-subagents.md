@@ -74,14 +74,15 @@ Trigger the security auditor agent and analyze the generated security report for
 ### Evidence
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
+<img width="944" height="564" alt="Screenshot 2026-09-27 at 12 47 35" src="https://github.com/user-attachments/assets/74c540ad-e564-44c1-8422-331e593d115d" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+<img width="1212" height="606" alt="Screenshot 2026-09-27 at 12 32 35" src="https://github.com/user-attachments/assets/7b63b565-6155-42c6-90cc-b178f69fe334" />
+
 
 ---
 
