@@ -94,7 +94,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+<img width="1440" height="900" alt="Screenshot 2026-09-27 at 12 54 20" src="https://github.com/user-attachments/assets/77bfd57d-9714-4a9a-aa91-f4290bb92735" />
+
 
 ---
 
@@ -109,23 +110,22 @@ Add your screenshot here.
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
-
-`Add your URL here`
+https://github.com/varunbadri2028-creator/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
 
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [✅] `.claude/agents/` folder contains all 3 agent files
+- [✅] Screenshot 2 shows correct `security-auditor.md` configuration
+- [✅] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [✅] All 3 written answers completed 
+- [✅] Security auditor executed successfully
+- [✅] Cost optimizer executed successfully
+- [✅] Security report is visible with findings
+- [✅] Cost report is visible with recommendations
+- [✅] All required screenshots added
+- [✅] GitHub repo updated with agents
 
 ---
 
