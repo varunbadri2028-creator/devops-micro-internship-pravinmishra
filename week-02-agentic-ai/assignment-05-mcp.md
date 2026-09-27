@@ -80,7 +80,8 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-Add your screenshot here.
+<img width="1586" height="992" alt="Screenshot2026" src="https://github.com/user-attachments/assets/f1d96f9d-703b-4f85-a68d-0cf30ba604ca" />
+
 
 ---
 
@@ -106,8 +107,8 @@ Paste your forked repository URL here:
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- [✅] `settings.local.json` is added to `.gitignore`
+- [✅] GitHub token is NOT exposed in repository or screenshots
 
 ---
 
