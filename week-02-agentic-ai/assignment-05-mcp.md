@@ -50,7 +50,8 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-Add your screenshot here.
+<img width="914" height="745" alt="Screenshot 2026-09-27 at 20 04 32" src="https://github.com/user-attachments/assets/e45dd76c-cee5-4987-8ed9-4fba54897876" />
+
 
 ---
 
@@ -64,7 +65,8 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+<img width="1536" height="1024" alt="Screensht" src="https://github.com/user-attachments/assets/f600b59a-4adf-4ac5-9251-9fd670001d0e" />
+
 
 ---
 
