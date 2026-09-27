@@ -20,7 +20,8 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-Add your screenshot here.
+<img width="1135" height="758" alt="Screenshot 2026-09-27 at 19 47 38" src="https://github.com/user-attachments/assets/6d9a570d-6be5-4815-a8b0-dc7996b5d4e9" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-Add your screenshot here.
+<img width="836" height="430" alt="Screenshot 2026-09-27 at 19 53 42" src="https://github.com/user-attachments/assets/94cc2872-dd6d-4456-a141-8c9709439175" />
+
 
 ---
 
