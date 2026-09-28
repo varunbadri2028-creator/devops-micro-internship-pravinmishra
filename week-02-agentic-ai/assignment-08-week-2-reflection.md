@@ -92,7 +92,8 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+<img width="1440" height="900" alt="Screenshot 2026-09-28 at 21 47 06" src="https://github.com/user-attachments/assets/71d1ff3b-c169-472b-81ab-374ae63c81c6" />
+
 
 ---
 
@@ -101,14 +102,27 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+🚀 Week 2 Completed — DevOps Micro Internship with Agentic AI
+I’ve completed Week 2 of my DevOps Micro Internship, and this week gave me a much deeper understanding of how Agentic AI can be integrated into real DevOps workflows.
+During this week, I worked with several Claude Code capabilities, including:
+🔹 Claude Code Skills — created reusable skills for Terraform scaffolding and Terraform plan review.
+🔹 Subagents — created specialized agents for security auditing, AWS cost optimization, and Terraform development.
+🔹 MCP (Model Context Protocol) — connected Claude Code with GitHub MCP and used it to retrieve repository information directly from GitHub.
+🔹 Memory — learned how project-specific information can be stored so Claude can maintain important project context across future sessions.
+🔹 Permissions & tools — understood why different agents should have different tool access. For example, a security auditor should be able to read and analyze files without unnecessarily having permission to modify them.
+One of my biggest takeaways this week was that AI-assisted development is not just about asking AI to write code. Clear instructions, appropriate permissions, specialized agents, reusable skills, and verification are all important for building a reliable workflow.
+I also faced some setup and troubleshooting challenges along the way, particularly while working with Terraform and the development environment. Working through those issues helped me become more comfortable with debugging instead of expecting everything to work perfectly on the first attempt.
+🎯 My takeaway
+My goal going forward is to build a habit of understanding → instructing → verifying whenever I use AI for development tasks.
+Excited to continue learning and building more with DevOps + Agentic AI! 🚀
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/varunbadri2028-creator.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+https://lnkd.in/p/dR98nqbu
 
 ---
 
