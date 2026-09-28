@@ -46,15 +46,15 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+<img width="1100" height="778" alt="Screenshot 2026-09-28 at 21 39 49" src="https://github.com/user-attachments/assets/bcde05d5-5c32-4221-a7ee-d362168e03ee" />
+
 
 ---
 
 ### Submission Field
 
 Blog Link:
-
-`Add your URL here`
+https://medium.com/@varunbadri2028/ultimate-agentic-ai-for-devops-5a99a35d7172?sharedUserId=varunbadri2028
 
 ---
 
