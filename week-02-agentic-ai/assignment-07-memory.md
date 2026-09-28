@@ -35,13 +35,15 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+<img width="1586" height="992" alt="ChatGPT Image Sep 28, 2026 at 09_16_44 PM" src="https://github.com/user-attachments/assets/16d08e15-df29-4217-9843-bfa4aceb5d00" />
+
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+<img width="1586" height="992" alt="ChatGPT Image Sep 28, 2026 at 09_16_48 PM" src="https://github.com/user-attachments/assets/41fae979-a025-4464-a826-88d9cf85b4ae" />
+
 
 ---
 
