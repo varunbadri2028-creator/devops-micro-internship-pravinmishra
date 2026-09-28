@@ -71,13 +71,15 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+<img width="311" height="76" alt="Screenshot 2026-09-28 at 21 29 58" src="https://github.com/user-attachments/assets/d78ce8ad-9dd9-46fa-83c3-0b1265081932" />
+
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+<img width="329" height="167" alt="Screenshot 2026-09-28 at 21 31 05" src="https://github.com/user-attachments/assets/e6aa2066-6156-4711-bf2a-5173373df436" />
+
 
 ---
 
@@ -102,20 +104,20 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/varunbadri2028-creator/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 
 # Completion Checklist
 
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
+- [✅ ] Memory file path identified (Screenshot 1)
+- [✅ ] Memory successfully saved via prompt (Screenshot 2)
+- [✅ ] `MEMORY.md` shows stored content (Screenshot 3)
+- [✅ ] Fresh session opened after full restart (Screenshot 4)
+- [✅ ] Claude recalled hero colors correctly (Screenshot 5)
+- [✅ ] Claude refused JavaScript request based on memory (Screenshot 6)
+- [✅ ] All screenshots added and committed to GitHub repo
+- [✅ ] Linkedin post created.
 
 ---
 
