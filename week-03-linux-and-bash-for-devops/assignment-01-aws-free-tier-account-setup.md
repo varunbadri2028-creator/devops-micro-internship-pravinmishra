@@ -19,22 +19,22 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 ### Answers
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
+An AWS account gives you access to Amazon Web Services and allows you to create and manage cloud resources.
+At this stage, we need an AWS account to practice deploying and managing infrastructure for the EpicReads project.
+It also provides access to the AWS Management Console, where we can configure services and monitor resources.
 
-Write your answer here.
-
----
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
-
----
+AWS Free Tier provides limited usage of selected AWS services at no cost, helping beginners learn and experiment with cloud services.
+Some services have free usage for 12 months after account creation, while others have always-free or limited trial offers.
+Usage beyond the applicable free limits can result in charges, so monitoring usage is important.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
-
----
+Three commonly used AWS Free Tier offerings are Amazon EC2, Amazon S3, and AWS Lambda.
+For eligible new accounts, EC2 can include 750 hours/month of certain eligible instances for up to 12 months, while S3 can include 5 GB of standard storage for up to 12 months.
+AWS Lambda includes 1 million free requests and 400,000 GB-seconds of compute time per month under its always-free allowance.
 
 # Task 2 — Create AWS Free Tier Account
 
