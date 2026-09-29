@@ -97,9 +97,8 @@ https://github.com/varunbadri2028-creator/Ultimate-Agentic-DevOps-with-Claude-Co
 
 ## LinkedIn post URL
 
-Paste your forked repository URL here:
 
-`Add your URL here`
+https://lnkd.in/p/di-qbhKD
 ---
 
 # Completion Checklist
