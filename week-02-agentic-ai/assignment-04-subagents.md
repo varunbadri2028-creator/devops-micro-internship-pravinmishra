@@ -110,7 +110,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
-https://github.com/varunbadri2028-creator/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
+
+https://github.com/varunbadri2028-creator/devops-micro-internship-pravinmishra
 
 ---
 
