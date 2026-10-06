@@ -71,9 +71,8 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-Add your screenshot here.
+<img width="857" height="117" alt="Screenshot 2026-10-06 220452" src="https://github.com/user-attachments/assets/30363b20-8ef4-45c3-977a-08797f069043" />
 
----
 
 # Task 6 — Deploy React Build to Nginx Web Root
 
@@ -85,9 +84,8 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-Add your screenshot here.
+<img width="587" height="97" alt="Screenshot 2026-10-06 220645" src="https://github.com/user-attachments/assets/679c81a0-b359-45c5-8288-e4df0ca0821d" />
 
----
 
 # Task 7 — Configure Nginx for React Application
 
@@ -99,15 +97,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-Add your screenshot here.
+<img width="632" height="95" alt="Screenshot 2026-10-06 220822" src="https://github.com/user-attachments/assets/89f6632d-c561-4c94-9bb0-d4832bd39136" />
 
----
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-Add your screenshot here.
+<img width="925" height="1011" alt="Screenshot 2026-10-06 220927" src="https://github.com/user-attachments/assets/8d09d91a-07c3-4de7-a8b3-8f8f6b62bc67" />
 
----
 
 # Task 8 — Test Deployment
 
@@ -119,15 +115,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+<img width="525" height="50" alt="Screenshot 2026-10-06 221022" src="https://github.com/user-attachments/assets/efdac88d-1675-49a2-b041-6ad57a878728" />
 
----
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-Add your screenshot here.
+<img width="772" height="565" alt="Screenshot 2026-10-06 221208" src="https://github.com/user-attachments/assets/19124af2-9c47-443e-8e43-bea3edd99519" />
 
----
 
 # LinkedIn Post (Required)
 
