@@ -20,27 +20,23 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+<img width="772" height="565" alt="Screenshot 2026-10-06 221208" src="https://github.com/user-attachments/assets/e791ba88-132c-4e01-b94d-e264d49bda7b" />
 
----
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+<img width="870" height="340" alt="Screenshot 2026-10-06 223141" src="https://github.com/user-attachments/assets/d4a1e46f-65b9-407e-8e67-0443c7b0d07c" />
 
----
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+<img width="1917" height="475" alt="Screenshot 2026-10-06 223309" src="https://github.com/user-attachments/assets/5a47d66c-046e-4c22-9d19-aa99285608e7" />
 
----
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+<img width="615" height="67" alt="Screenshot 2026-10-06 223544" src="https://github.com/user-attachments/assets/a24627ec-44e8-4b48-b7e6-5da6026d261f" />
 
----
 
 ### Notes
 
@@ -48,21 +44,15 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
-
----
+The sudo ss -tulpen output shows 0.0.0.0:80 in the LISTEN state, and the process is identified as nginx. This proves Nginx is listening for HTTP connections on port 80 on all IPv4 interfaces.
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
-
----
+In my current WSL environment, there is no listener on port 22 in the sudo ss -tulpen output. Therefore, SSH is not running/listening on port 22 in this environment.
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
-
----
+No unexpected application ports were found. Nginx is listening on port 80, while the other ports shown are related to system DNS and time synchronization services. Since this is a local WSL environment, SSH on port 22 is not enabled.
 
 # Task 2 — Service Health & Systemd Validation (Nginx)
 
@@ -74,21 +64,18 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+<img width="863" height="555" alt="Screenshot 2026-10-06 223752" src="https://github.com/user-attachments/assets/0c0b3355-4b5a-42cd-a8ed-9c5818771ae6" />
 
----
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+<img width="638" height="106" alt="Screenshot 2026-10-06 223907" src="https://github.com/user-attachments/assets/7d6f274d-c7f4-44e0-b371-807fff1053b0" />
 
----
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+<img width="1627" height="193" alt="Screenshot 2026-10-06 224027" src="https://github.com/user-attachments/assets/1a9077ea-734c-49f9-8aa6-81a8be18aa51" />
 
----
 
 ### Notes
 
@@ -96,15 +83,11 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
-
----
+If Nginx fails to restart, the website may become unavailable because Nginx is responsible for serving the application. I would check the service status and configuration test, identify the problem, fix it, and restart Nginx safely.
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
-
----
+My basic rollback plan is to keep a known-working configuration and application build as a backup. If a new deployment causes a problem, I would restore the previous working configuration or build, test Nginx with nginx -t, and restart the service.
 
 # Task 3 — Logs & Request Trace
 
@@ -116,21 +99,18 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (209)" src="https://github.com/user-attachments/assets/b723e7e7-ce55-4352-8c23-8af88bedf8bb" />
 
----
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+<img width="757" height="65" alt="Screenshot 2026-10-06 224358" src="https://github.com/user-attachments/assets/c14df2a0-4d30-42d5-a67d-e0c034c78aa8" />
 
----
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/39f37f46-30df-43e8-ac32-925851b8cb95" />
 
----
 
 ### Notes
 
@@ -141,21 +121,15 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
-
----
+No recent Nginx errors were found. The error log only contains a normal notice about inherited sockets, which is not an application or configuration error.
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
-
----
+It indicates that Nginx is operating normally and there are no recent logged errors affecting the web server during this check.
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
-
----
+Yes. The Nginx access log contains multiple curl requests such as GET / and HEAD / with HTTP status 200. This proves that the requests reached Nginx and Nginx successfully served the application response.
 
 # Task 4 — System Resource Health Check (Capacity Red Flags)
 
@@ -167,27 +141,22 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+<img width="635" height="65" alt="Screenshot 2026-10-06 224733" src="https://github.com/user-attachments/assets/2f61eb7b-e01e-4418-8c76-6bf0ca49a8e4" />
 
----
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+<img width="735" height="123" alt="Screenshot 2026-10-06 224834" src="https://github.com/user-attachments/assets/caa84ad7-6599-48c5-8e79-9479711180d8" />
 
----
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+<img width="836" height="360" alt="Screenshot 2026-10-06 224931" src="https://github.com/user-attachments/assets/fef007fa-0438-447d-a88e-8a5ae6d3859a" />
 
----
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
-
----
+<img width="708" height="342" alt="Screenshot 2026-10-06 225036" src="https://github.com/user-attachments/assets/86fb8860-cdf5-4f9b-92ac-6f9297d96256" />
 
 ### Notes
 
