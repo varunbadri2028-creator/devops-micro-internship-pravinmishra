@@ -20,9 +20,8 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-Add your screenshot here.
+<img width="518" height="136" alt="Screenshot 2026-10-06 213403" src="https://github.com/user-attachments/assets/73fe70ca-dbb5-4b6a-a7be-62411fc6a6b2" />
 
----
 
 # Task 2 — Setup Environment (Nginx)
 
@@ -34,9 +33,8 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (207)" src="https://github.com/user-attachments/assets/1dcbd681-0de7-4b40-91f3-987a80cd2db9" />
 
----
 
 # Task 3 — Clone React Application
 
@@ -48,9 +46,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-Add your screenshot here.
-
----
+<img width="776" height="191" alt="Screenshot 2026-10-06 215724" src="https://github.com/user-attachments/assets/8b924998-6146-4c41-97c1-3e5c6bfba1f4" />
 
 # Task 4 — Modify Application (Personalization)
 
@@ -62,9 +58,8 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-Add your screenshot here.
+<img width="861" height="117" alt="Screenshot 2026-10-06 220211" src="https://github.com/user-attachments/assets/83e0c168-1900-446a-93be-1a836b39de4c" />
 
----
 
 # Task 5 — Build React Application
 
