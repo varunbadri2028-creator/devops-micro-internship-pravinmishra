@@ -20,9 +20,8 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+<img width="913" height="740" alt="Screenshot 2026-10-07 190900" src="https://github.com/user-attachments/assets/63defc6d-9500-448f-a355-7c513924677a" />
 
----
 
 # Task 1 — Get the Website Source Code
 
@@ -34,9 +33,8 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-Add your screenshot here.
+<img width="688" height="381" alt="Screenshot 2026-10-07 191309" src="https://github.com/user-attachments/assets/80f97c3a-bff5-4ada-a7ad-f9786b312410" />
 
----
 
 # Task 2 — Add Ownership Proof (Anti-Copy Change)
 
@@ -48,9 +46,8 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-Add your screenshot here.
+<img width="865" height="335" alt="Screenshot 2026-10-07 192820" src="https://github.com/user-attachments/assets/5d0758d5-989e-4a5c-8eee-c6760731e80c" />
 
----
 
 # Task 3 — Deploy Website via Nginx
 
@@ -62,15 +59,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-Add your screenshot here.
+<img width="836" height="105" alt="Screenshot 2026-10-07 192944" src="https://github.com/user-attachments/assets/a6e3831c-b202-4446-9ff7-675e05fa7d1d" />
 
----
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-Add your screenshot here.
+<img width="725" height="105" alt="Screenshot 2026-10-07 193054" src="https://github.com/user-attachments/assets/894441be-5039-47b6-9095-e6f0038ecbe8" />
 
----
 
 # Task 4 — Verify Website is Live
 
@@ -82,15 +77,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+<img width="775" height="52" alt="Screenshot 2026-10-07 193226" src="https://github.com/user-attachments/assets/be51af0f-930d-4a50-87e1-dff1142a12fb" />
 
----
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-Add your screenshot here.
+<img width="957" height="1015" alt="Screenshot 2026-10-07 213115" src="https://github.com/user-attachments/assets/8d2be248-e063-4e7f-96d3-442fe0ec3154" />
 
----
 
 # Task 5 — Mini Real DevOps Operational Check
 
@@ -102,15 +95,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+<img width="927" height="76" alt="Screenshot 2026-10-07 211838" src="https://github.com/user-attachments/assets/3f619f16-d7a7-49d5-a376-786409b285bb" />
 
----
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
+<img width="830" height="251" alt="Screenshot 2026-10-07 211958" src="https://github.com/user-attachments/assets/f30bfeb0-4c89-44b5-9f55-d040758525d9" />
 
----
 
 # LinkedIn Post (Mandatory)
 
