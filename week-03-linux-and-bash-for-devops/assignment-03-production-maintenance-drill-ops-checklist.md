@@ -164,15 +164,11 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
-
----
+Disk usage looks the most critical resource to monitor because disk space is used for the operating system, application files, logs, and temporary files. If disk usage gets too high, it can affect system and application operations. The CPU load and memory usage are currently not showing a critical condition.
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
-
----
+If the disk becomes 100% full, the server may not be able to create or write new files. Logs may stop being written, deployments can fail, applications may become unstable, and some services can stop working properly. Therefore, disk usage should be monitored and unnecessary files or old logs should be cleaned up before the disk reaches full capacity.
 
 # Task 5 — Configuration & Deployment Verification
 
