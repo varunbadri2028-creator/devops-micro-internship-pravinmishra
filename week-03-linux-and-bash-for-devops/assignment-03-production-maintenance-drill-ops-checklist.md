@@ -313,15 +313,12 @@ Unused cloud resources should be stopped or terminated to avoid unnecessary char
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/dNSpWti8
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (211)" src="https://github.com/user-attachments/assets/a63360ae-a458-438b-b800-7127aa27657d" />
 
----
 
 # Submission Instructions
 
