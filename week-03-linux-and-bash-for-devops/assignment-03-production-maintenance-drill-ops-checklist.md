@@ -180,21 +180,18 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+<img width="673" height="320" alt="Screenshot 2026-10-07 182756" src="https://github.com/user-attachments/assets/b4c035c8-a2ff-412c-9bfd-63c37f2673d1" />
 
----
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+<img width="1917" height="598" alt="Screenshot 2026-10-07 183251" src="https://github.com/user-attachments/assets/c8404483-eef3-47a9-b1b6-dbee1f710a2b" />
 
----
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+<img width="845" height="77" alt="Screenshot 2026-10-07 183443" src="https://github.com/user-attachments/assets/4f888fbb-d51b-4efd-a823-56598dd7f573" />
 
----
 
 ### Notes
 
@@ -202,9 +199,8 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+I confirm that the correct version of the application is deployed by checking the files in `/var/www/html`, verifying the expected application content such as my name and deployment date, and checking the Nginx configuration. The `try_files $uri $uri/ /index.html;` rule also confirms that Nginx is serving the deployed React application correctly.
 
----
 
 # Task 6 — Nginx Configuration Failure Simulation
 
@@ -216,21 +212,18 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+<img width="912" height="102" alt="Screenshot 2026-10-07 184743" src="https://github.com/user-attachments/assets/ad1ca5a2-4f43-4879-b4e8-c2dc6b6e7e7b" />
 
----
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+<img width="668" height="80" alt="Screenshot 2026-10-07 184922" src="https://github.com/user-attachments/assets/56111613-24b8-4877-b00f-47922b69ed1e" />
 
----
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+<img width="615" height="233" alt="Screenshot 2026-10-07 185028" src="https://github.com/user-attachments/assets/cbbbb46f-b9f2-4457-b427-765b93b4e8bb" />
 
----
 
 ### Notes
 
@@ -238,21 +231,15 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
-
----
+The failure was caused by adding an invalid Nginx directive, invalid_directive;, to the configuration file. Nginx reported it as an unknown directive and the configuration test failed.
 
 **2. How did you fix the issue?**
 
-Write your answer here.
-
----
+I restored the previous working Nginx configuration from the backup, then ran sudo nginx -t to verify that the configuration syntax was correct. After the test passed, I reloaded Nginx and confirmed recovery with curl -I http://localhost, which returned HTTP/1.1 200 OK.
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
-
----
+In production, configuration changes should be tested with nginx -t before reloading or restarting Nginx. Keeping backups or using version control, testing changes in a staging environment, and having a rollback plan can also prevent configuration errors from causing downtime.
 
 # Task 7 — Web Application Failure Simulation
 
@@ -264,15 +251,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+<img width="545" height="181" alt="Screenshot 2026-10-07 185524" src="https://github.com/user-attachments/assets/46a38b1f-2b9e-4706-b0cc-bd9970b96010" />
 
----
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+<img width="638" height="240" alt="Screenshot 2026-10-07 185655" src="https://github.com/user-attachments/assets/04575e68-4f5f-4f3c-8c60-d355551db221" />
 
----
 
 ### Notes
 
@@ -280,21 +265,15 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
-
----
+The application broke because the index.html file was temporarily moved from /var/www/html. Since Nginx could not find the required file, it returned a 403 Forbidden response.
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
-
----
+I restored the index.html file to /var/www/html using the backup file. I then tested the application with curl -I http://localhost and confirmed that it returned HTTP/1.1 200 OK.
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
-
----
+I would use backups and version-controlled deployments, test deployments before releasing them, use health checks and monitoring, and avoid manually deleting or moving important application files on the production server. A rollback plan should also be available if a deployment fails.
 
 # Task 8 — Security & Reliability Review
 
@@ -308,33 +287,23 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
-
----
+SSH key-based authentication uses a private key and a public key instead of a shared password. The private key stays with the user, making it harder for attackers to guess or brute-force compared with passwords.
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
-
----
+Only required ports should be open to reduce the server's attack surface. Closing unnecessary ports prevents unwanted services from being accessed and reduces potential security risks.
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
-
----
+Nginx should be enabled on boot so that it starts automatically after a server restart. This helps ensure that the web application becomes available without requiring someone to start Nginx manually.
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
-
----
+Publicly sharing secrets, keys, or credentials can allow unauthorized users to access servers, applications, databases, or cloud accounts. This can lead to data theft, account compromise, service disruption, and unexpected costs.
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
-
----
+Unused cloud resources should be stopped or terminated to avoid unnecessary charges and reduce security exposure. Removing unused resources also helps keep the cloud environment clean and easier to manage.
 
 # LinkedIn Post (Required)
 
