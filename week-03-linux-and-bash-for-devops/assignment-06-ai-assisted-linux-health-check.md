@@ -112,27 +112,23 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+<img width="941" height="915" alt="Screenshot 2026-10-09 002150" src="https://github.com/user-attachments/assets/f2296e25-d8ce-4e7a-9a70-8030bc72f256" />
 
----
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+<img width="956" height="1008" alt="Screenshot 2026-10-09 002255" src="https://github.com/user-attachments/assets/ab1ac4df-ca73-4a1f-bc75-e7d7580692de" />
 
----
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+<img width="905" height="870" alt="Screenshot 2026-10-09 002347" src="https://github.com/user-attachments/assets/7ed8a711-90a7-4f4f-a3f1-87e1d0a44583" />
 
----
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+<img width="922" height="121" alt="Screenshot 2026-10-09 002441" src="https://github.com/user-attachments/assets/5da552a1-840d-43f2-9715-43d7a84cde48" />
 
----
 
 ### Notes
 
@@ -140,33 +136,29 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
-
----
+The checks array stores the five health check names: Nginx status, port 80, HTTP response, Nginx configuration, and error logs.
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
-
----
+The for loop goes through each item in the checks array one by one and uses the case statement to run the corresponding health-check function.
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
-
----
+Separating the checks into functions makes the script organized, easier to understand, and easier to maintain or update.
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
-
----
+$(...) is used for command substitution. It runs a command and stores its output in a variable. For example, the script uses it to store the HTTP status code and count recent Nginx errors.
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
+Different exit codes allow other tools or scripts to quickly identify the result:
 
----
+0 → HEALTHY
+1 → WARN
+2 → FAIL
+
+This makes the script useful for automation and monitoring.
 
 # Task 5 — Run and Understand the Healthy-State Report
 
@@ -178,15 +170,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+<img width="930" height="421" alt="Screenshot 2026-10-09 002807" src="https://github.com/user-attachments/assets/74333e15-7eb9-4118-9c72-1ae4dddf96f3" />
 
----
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+<img width="903" height="490" alt="Screenshot 2026-10-09 002902" src="https://github.com/user-attachments/assets/9316c752-6264-459d-be29-b6fe5c62e385" />
 
----
 
 ### Notes
 
@@ -194,27 +184,19 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
-
----
+The overall status of my healthy baseline is WARN. All five checks completed, with 4 checks passing and 1 warning due to a recent Nginx error-log entry. There were no failures.
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
-
----
+The exact evidence is Port 80 is listening and HTTP response: 200. The ss check confirms Nginx is listening on port 80, and curl receiving HTTP 200 confirms the application is responding to requests.
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
-
----
+The script returned exit code 1 because there was a warning from 1 recent Nginx error-log entry. There were no failed checks, so the script used exit code 1 for the warning state.
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
-
----
+A warning means something needs attention, but the application is still working. A failure means a critical health check has failed, such as Nginx being inactive, port 80 not listening, or the HTTP request failing. Warnings return exit code 1, while failures return exit code 2.
 
 # Task 6 — Create and Run the /linux-triage Skill
 
@@ -226,15 +208,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+<img width="958" height="1007" alt="Screenshot 2026-10-09 003153" src="https://github.com/user-attachments/assets/ebb61156-45b0-44d1-bb03-f39573a2456b" />
 
----
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+<img width="1536" height="1024" alt="assign5" src="https://github.com/user-attachments/assets/ffd2f0a9-998f-4def-bec2-e6d3d8ca1fa7" />
 
----
 
 ### Notes
 
@@ -242,27 +222,19 @@ Answer the following in your own words:
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-Add your answer here.
-
----
+The skill uses Bash, Read, and Grep for read-only inspection and evidence collection. Write is not included because the skill should not modify files or system configuration during triage.
 
 **2. Why is `disable-model-invocation: true` useful for this skill?**
 
-Add your answer here.
-
----
+It prevents Claude from automatically invoking the skill on its own. The human operator must explicitly run /linux-triage, giving the human control over when the diagnostic process starts.
 
 **3. What part is performed by Bash, and what part is performed by Claude?**
 
-Add your answer here.
-
----
+Bash performs the actual Linux checks and collects evidence, such as Nginx status, port 80, HTTP response, configuration, and logs. Claude reads and analyzes that evidence, explains the results, and suggests the next step without performing the recovery action.
 
 **4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
 
-Add your answer here.
-
----
+Because Claude can base its answer on actual Linux evidence instead of guessing. The evidence-based approach makes the diagnosis more reliable, shows exactly what was checked, and helps prevent unsupported conclusions.
 
 # Task 7 — Simulate an Nginx Incident and Let the Skill Diagnose It
 
@@ -274,21 +246,18 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+<img width="932" height="163" alt="Screenshot 2026-10-09 003821" src="https://github.com/user-attachments/assets/a601813a-3d47-4603-a347-d0459506422d" />
 
----
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+<img width="1536" height="1024" alt="assign5-2" src="https://github.com/user-attachments/assets/42ebfec3-f47d-42ed-a888-0f5275e040e8" />
 
----
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+<img width="930" height="430" alt="Screenshot 2026-10-09 004148" src="https://github.com/user-attachments/assets/664007b6-96aa-40fe-98bc-5ce3558aac79" />
 
----
 
 ### Notes
 
@@ -296,33 +265,23 @@ Answer the following in your own words:
 
 **1. Which three checks failed?**
 
-Add your answer here.
-
----
+The three failed checks were the Nginx service status, port 80 listening check, and HTTP response check.
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-Add your answer here.
-
----
+The evidence shows that the Nginx service is inactive, port 80 is not listening, and the HTTP request to localhost fails. Together, these show that Nginx is unavailable and cannot serve the application.
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-Add your answer here.
-
----
+No. Claude only suggested the recovery command. The human operator must execute it because recovery actions can change the system and may have unintended effects.
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-Add your answer here.
-
----
+The Bash report represents the Gather phase because it collects the actual Linux and Nginx evidence.
 
 **5. Which phase is represented by Claude's explanation?**
 
-Add your answer here.
-
----
+Claude's explanation represents the Analyze phase because it interprets the collected evidence, identifies the most likely cause, and suggests the next step.
 
 # Task 8 — Recover Manually, Verify Again, and Write the Incident Summary
 
