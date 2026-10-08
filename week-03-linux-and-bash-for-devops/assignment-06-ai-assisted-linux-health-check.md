@@ -20,15 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+<img width="912" height="430" alt="Screenshot 2026-10-09 000239" src="https://github.com/user-attachments/assets/961a2879-6a27-4e1b-9fea-99feeedffbaf" />
 
----
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+<img width="912" height="235" alt="Screenshot 2026-10-09 000353" src="https://github.com/user-attachments/assets/86e2f95a-c3d8-4ee0-b3ce-eea07bd96ca7" />
 
----
 
 ### Notes
 
@@ -36,21 +34,15 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
-
----
+The command systemctl is-active nginx returned active, which proves that Nginx is running.
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
-
----
+The ss -ltn | grep ':80' command showed LISTEN on port 80, proving that the server is listening for HTTP traffic.
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
-
----
+A healthy baseline gives us a reference point for comparison. After simulating an incident, we can compare the new results with the baseline to identify what changed and confirm that the system has recovered
 
 # Task 2 — Create Project Context and Safety Rules in CLAUDE.md
 
@@ -62,9 +54,8 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+<img width="1917" height="1015" alt="Screenshot 2026-10-09 001010" src="https://github.com/user-attachments/assets/a7522e43-c911-4589-868f-586ab1407d4d" />
 
----
 
 ### Notes
 
@@ -72,21 +63,15 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
-
----
+Project-specific rules tell Claude what the project does, what it should check, and what actions it must avoid. This helps Claude work safely and consistently.
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
-
----
+The human must execute the recovery command because recovery can change the system or affect services. Keeping this step with the human prevents the AI from making an unsafe automatic change.
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
-
----
+The rule “Do not make unsupported diagnoses” prevents Claude from making conclusions that are not supported by the collected evidence. It must base conclusions only on the evidence collected.
 
 # Task 3 — Use Agentic AI to Plan Before Writing the Script
 
