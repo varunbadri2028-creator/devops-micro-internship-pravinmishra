@@ -93,15 +93,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+<img width="940" height="335" alt="Screenshot 2026-10-08 231930" src="https://github.com/user-attachments/assets/db2ca348-8192-481c-9aa4-0f9bae122e17" />
 
----
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+<img width="920" height="162" alt="Screenshot 2026-10-08 232035" src="https://github.com/user-attachments/assets/2fa8cc18-511a-4eb6-9f8b-21c5e8ec5cca" />
 
----
 
 ### Notes
 
@@ -109,21 +107,15 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
-
----
+A variable in Bash is used to store a value, such as a name, number, or text, so it can be used later in the script.
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-Add your answer here.
-
----
+Bash does not allow spaces around = when assigning a value. For example, name="Varun" is correct, while name = "Varun" is treated as a command and causes an error.
 
 **3. How do you access the value stored inside a Bash variable?**
 
-Add your answer here.
-
----
+We use the $ symbol followed by the variable name. For example, if name="B. Varun Kumar", we use $name to access its value.
 
 # Task 4 — Arrays & Loops: Tools Checklist Script
 
