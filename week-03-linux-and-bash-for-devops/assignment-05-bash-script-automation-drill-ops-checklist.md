@@ -339,15 +339,12 @@ The script uses variables for information like the name and score, an array to s
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/dj5njznW
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="1632" height="840" alt="Screenshot 2026-10-08 235932" src="https://github.com/user-attachments/assets/3495c930-131a-4649-b8ff-12662b0d253e" />
 
----
 
 # Submission Instructions
 
