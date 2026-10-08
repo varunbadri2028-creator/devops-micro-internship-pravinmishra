@@ -127,15 +127,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+<img width="922" height="372" alt="Screenshot 2026-10-08 232338" src="https://github.com/user-attachments/assets/55a98045-eb23-4e8a-ab39-6b369d112ff1" />
 
----
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+<img width="925" height="263" alt="Screenshot 2026-10-08 232452" src="https://github.com/user-attachments/assets/d4a8a8fc-3e76-4c8a-8079-d76dc177b167" />
 
----
 
 ### Notes
 
@@ -143,27 +141,19 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
-
----
+An array in Bash is a variable that can store multiple values under one variable name.
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
-
----
+Arrays are useful when we need to store and process a list of related values. They make it easier to work with multiple items using loops.
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
-
----
+"${tools[@]}" refers to all the values stored in the tools array. It allows the for loop to process each tool separately.
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
-
----
+The for loop goes through each tool stored in the tools array and prints them one by one as part of the checklist.
 
 # Task 5 — Loops: Number Counter Script
 
@@ -175,15 +165,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+<img width="903" height="302" alt="Screenshot 2026-10-08 232934" src="https://github.com/user-attachments/assets/507e2c16-235c-484f-84f9-d03e1591b63e" />
 
----
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+<img width="883" height="242" alt="Screenshot 2026-10-08 233026" src="https://github.com/user-attachments/assets/3bd96154-32f5-4e98-88c7-fdd79019900d" />
 
----
 
 ### Notes
 
@@ -191,27 +179,19 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
-
----
+A loop is a programming structure that repeats a set of commands multiple times.
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
-
----
+We use loops to repeat tasks automatically without writing the same commands again and again. This makes scripts shorter and easier to manage.
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
-
----
+The loop ran 5 times, counting from 1 to 5.
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Add your answer here.
-
----
+I would change {1..5} to {1..10} in the for loop.
 
 # Task 6 — Files & Conditionals: File Validation Script
 
