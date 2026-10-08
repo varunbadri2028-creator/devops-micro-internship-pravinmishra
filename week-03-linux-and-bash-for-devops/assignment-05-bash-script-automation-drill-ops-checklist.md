@@ -203,21 +203,17 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+<img width="930" height="167" alt="Screenshot 2026-10-08 233811" src="https://github.com/user-attachments/assets/ce7f1ff6-1cae-4eee-a8f1-66557f6bdd27" />
 
----
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+<img width="922" height="491" alt="Screenshot 2026-10-08 234022" src="https://github.com/user-attachments/assets/5d591da4-0c3f-401e-b36a-f9454490054e" />
 
----
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
-
----
+<img width="917" height="120" alt="Screenshot 2026-10-08 234134" src="https://github.com/user-attachments/assets/6a03a84d-e1bb-42f2-b2e1-411f3a147605" />
 
 ### Notes
 
@@ -225,27 +221,19 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
-
----
+-d checks whether the given path exists and is a directory.
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
-
----
+-f checks whether the given path exists and is a regular file.
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
-
----
+Storing paths in variables makes the script easier to read, reuse, and modify, and avoids repeating the same path multiple times.
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
-
----
+The -f condition becomes false, so the else block runs and displays that the file does not exist.
 
 # Task 7 — Conditionals: Pass or Retry Script
 
@@ -257,27 +245,23 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+<img width="922" height="352" alt="Screenshot 2026-10-08 234455" src="https://github.com/user-attachments/assets/c14fa8b7-7aec-4625-8d93-2325f10586b8" />
 
----
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+<img width="917" height="118" alt="Screenshot 2026-10-08 234548" src="https://github.com/user-attachments/assets/f626f11d-ec5f-49ca-9ab0-458a392e9914" />
 
----
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+<img width="911" height="333" alt="Screenshot 2026-10-08 234702" src="https://github.com/user-attachments/assets/af389421-2f9b-4047-a2c6-1962ee7e1ef8" />
 
----
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+<img width="922" height="122" alt="Screenshot 2026-10-08 234748" src="https://github.com/user-attachments/assets/220ae699-a19a-46ed-ae1c-eaf67f528d22" />
 
----
 
 ### Notes
 
@@ -285,27 +269,19 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
-
----
+if-else is used to make decisions in a Bash script based on whether a condition is true or false.
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
-
----
+-ge means greater than or equal to.
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
-
----
+Testing different values helps verify that the script works correctly for different situations, such as both Pass and Retry cases.
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
-
----
+Conditionals allow scripts to make decisions automatically and perform different actions depending on the situation.
 
 # Task 8 — Functions: Final Bash Automation Script
 
@@ -317,21 +293,18 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+<img width="931" height="1012" alt="Screenshot 2026-10-08 235255" src="https://github.com/user-attachments/assets/83e65a72-e90a-40b1-b19a-4b445d4597fe" />
 
----
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+<img width="923" height="283" alt="Screenshot 2026-10-08 235351" src="https://github.com/user-attachments/assets/75e2d85d-b62c-4888-a770-1ec3077386ba" />
 
----
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+<img width="890" height="288" alt="Screenshot 2026-10-08 235458" src="https://github.com/user-attachments/assets/d42527c7-bc12-4c78-aa3d-1ba91df0bddf" />
 
----
 
 ### Notes
 
@@ -339,27 +312,24 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
-
----
+A function is a reusable block of commands that performs a specific task in a Bash script.
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
-
----
+Functions make scripts organized, reusable, and easier to read. They also avoid repeating the same commands.
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+I created four functions:
 
----
+show_info() — displays user and internship information.
+show_tools() — displays the list of DevOps tools using a loop.
+check_files() — checks whether the directory and file exist.
+check_score() — checks the score and displays Pass or Retry
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
-
----
+The script uses variables for information like the name and score, an array to store tools, a loop to display each tool, conditionals to check files and the score, and functions to organize all these tasks into separate reusable sections.
 
 # LinkedIn Post (Required)
 
