@@ -83,9 +83,8 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+<img width="928" height="612" alt="Screenshot 2026-10-09 001732" src="https://github.com/user-attachments/assets/4faa768d-58a3-405b-bf20-971d97436a7a" />
 
----
 
 ### Notes
 
@@ -93,21 +92,15 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
-
----
+The read-only inspection of the Ubuntu server and Nginx represents the Gather phase. It collected evidence about the Nginx status, port 80, HTTP response, configuration, and error logs.
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
-
----
+Yes. No files were created or modified during the inspection. I verified this by checking that the inspection only used read-only commands and that linux-triage.sh had not been created yet.
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
-
----
+Planning helps identify the required checks, commands, and expected results before writing the script. This reduces mistakes and makes the automation more organized and reliable.
 
 # Task 4 — Build the Linux Triage Bash Script
 
