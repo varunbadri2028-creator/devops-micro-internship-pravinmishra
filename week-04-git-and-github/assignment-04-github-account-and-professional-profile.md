@@ -41,13 +41,15 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
+
+<img width="728" height="778" alt="Screenshot 2026-10-15 at 12 41 30" src="https://github.com/user-attachments/assets/e00cb74d-0017-4d47-8b61-569b14840bf3" />
+
 
 ---
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
+<img width="773" height="742" alt="Screenshot 2026-10-15 at 12 40 06" src="https://github.com/user-attachments/assets/a86bfa75-a86d-46fa-98cf-f2f4c7bf3acf" />
 
-Add your screenshot here.
 
 ---
 
