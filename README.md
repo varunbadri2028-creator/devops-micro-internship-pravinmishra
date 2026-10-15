@@ -132,9 +132,9 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ completed | ✅ completed | https://www.linkedin.com/posts/varun-kumar-221a6b403_from-knowing-how-to-use-applications-activity-7504942956643196928-6Pc5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGc02XkBnQahz2VLCDcQNfkx30-Ih7vOlOo| https://medium.com/@varunbadri2028/my-first-steps-into-devops-understanding-what-happens-behind-the-applications-we-use-9ebb619b8c5a|
 | 01 | Success Mindset | ✅ completed | ✅ completed | https://www.linkedin.com/posts/varun-kumar-221a6b403_github-varunbadri2028-creatordevops-micro-internship-pravinmishra-activity-7505522343889530880-SuMr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGc02XkBnQahz2VLCDcQNfkx30-Ih7vOlOo | https://medium.com/@varunbadri2028/week-1-reflection-building-my-mindset-os-4e413b8fb35a?postPublishedType=initial|
-| 02 | Agentic AI with Claude Code | ✅ completed | ✅ completed | — | — |
+| 02 | Agentic AI with Claude Code | ✅ completed | ✅ completed | https://lnkd.in/p/dH4YMYUs | https://medium.com/@varunbadri2028/ultimate-agentic-ai-for-devops-5a99a35d7172 |
 | 03 | Linux & Bash for DevOps | ✅ completed | ✅ completed | https://lnkd.in/p/diCJNAe8 | https://medium.com/@varunbadri2028/from-linux-errors-to-recovery-my-ai-assisted-incident-triage-project-e4de1d208c4e |
-| 04 | Git & GitHub | ✅ completed | ✅ completed| — | https://medium.com/@varunbadri2028/building-an-ai-assisted-git-safety-net-my-dmi-week-04-experience-8b3151b306f5|
+| 04 | Git & GitHub | ✅ completed | ✅ completed|https://lnkd.in/p/dtpGE5Cj| https://medium.com/@varunbadri2028/building-an-ai-assisted-git-safety-net-my-dmi-week-04-experience-8b3151b306f5|
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
