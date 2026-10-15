@@ -241,32 +241,31 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 ### Notes
 
 **1. Which step(s) represent Gather?**
-
-Add your answer here.
+Gather means collecting the information needed for the review. In this assignment, I used Git status, the staged file list, and the Git diff to understand what changes were going to be committed
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+Analyze means examining the collected changes for possible problems. The pre-commit hook checks for specific risky patterns, while the AI-assisted review helps identify potential secrets, debug statements, unrelated files, and other issues before creating a pull request.
 
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
-
+Human Act is when I review the findings, fix the problems, commit the changes, push my branch, and open the pull request. A human should control these actions because AI can make mistakes, and I must verify the changes and destination before publishing them.
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+Verify means checking the results of each action. I verify that the hook blocks risky changes, the corrected files can be committed, the branch is pushed to my fork, and the pull request targets the intended repository.
+
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+The pre-commit hook provides consistent checks for predefined risky patterns, while the AI skill helps review the context of the changes and explain possible issues. Both are useful because fixed rules can miss contextual problems, and AI can overlook things that a deterministic check would catch.
 
 ---
 
@@ -279,8 +278,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 ### Evidence
 
 #### LinkedIn Post URL
-
-Add your LinkedIn post URL here...
+https://lnkd.in/p/dMtgngpm
 
 ---
 
@@ -288,9 +286,13 @@ Add your LinkedIn post URL here...
 
 Add 3-5 bullet points on what you learned this week.
 
--
--
--
+### Key Learnings — DMI Assignment 6: PR Ready
+
+- Learned how to create and configure a Git pre-commit hook to block risky changes before committing.
+- Understood how AI-assisted code review can help identify potential issues and prepare a clear pull request description.
+- Learned that AI-generated drafts must be reviewed and edited instead of blindly copy-pasted.
+- Understood the Agentic Loop: Gather → Analyze → Human Act → Verify.
+- Practised pushing a feature branch to my GitHub fork and creating a pull request while keeping human oversight in the workflow.
 
 ---
 
