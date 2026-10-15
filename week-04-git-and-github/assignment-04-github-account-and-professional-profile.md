@@ -19,14 +19,15 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 ### Evidence
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
+<img width="688" height="643" alt="Screenshot 2026-10-15 at 12 35 33" src="https://github.com/user-attachments/assets/03754f84-4589-4d30-a024-2eec4202dbe4" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
+<img width="752" height="781" alt="Screenshot 2026-10-15 at 12 37 13" src="https://github.com/user-attachments/assets/5aff1097-ec84-44d3-bf53-e1df96112ab4" />
+
 
 ---
 
