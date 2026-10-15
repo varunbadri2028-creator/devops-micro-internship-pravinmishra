@@ -36,7 +36,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+I created a separate feature branch to keep my assignment changes isolated from the main branch. This makes it easier to test the workflow, review changes, and avoid accidentally affecting stable code or unrelated work.
 
 ---
 
@@ -58,8 +58,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 ### Notes
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
-
-Add your answer here.
+An obviously fake key lets me test whether the pre-commit hook detects secret-like patterns without exposing real credentials. Using real secrets could compromise accounts or systems if the code were shared or pushed to GitHub.
 
 ---
 
@@ -88,13 +87,12 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Tracking the hook in the repository allows it to be version-controlled, reviewed, and shared with other developers. Files inside `.git/hooks/` are local to my machine and are not normally included when the repository is cloned.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
-
-Add your answer here.
+The Git pre-commit hook intercepts a commit before Git creates it, while Claude Code's `PreToolUse` hook intercepts a tool action before it executes. Both act as safety gates that check an action against defined conditions and can block it before it happens.
 
 ---
 
@@ -115,14 +113,12 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 ### Notes
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
-
-Add your answer here.
+The secret-detection pattern containing `AKIA[0-9A-Z]{16}` matched the fake AWS-style access key because it begins with `AKIA` followed by 16 uppercase letters or digits. The hook also checks for patterns such as `AWS_SECRET_ACCESS_KEY` to detect other suspicious credential-like content.
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
-
-Add your answer here.
+It might not catch a secret stored under an unrelated variable name if the value does not match any configured pattern. This shows that fixed rules are consistent but limited to the patterns they know, so they cannot detect every possible secret or security issue.
 
 ---
 
@@ -150,13 +146,15 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+`Bash` and `Read` allow the skill to inspect Git status and staged changes, while `Grep` helps search for suspicious patterns. Excluding `Write` restricts the skill from editing files, helping keep it read-only so I can review its recommendations and make changes myself.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+The pre-commit hook focused on predefined patterns, such as secret-like values and oversized files. The AI skill could also consider context, debug statements, unrelated changes, and whether the changes were clearly explained. Their findings can differ because the hook follows fixed rules while the AI review uses contextual analysis.
+
+*Note: Since I used Copilot rather than Claude Code, I should describe the AI review as Copilot-assisted unless I actually ran `/pr-ready` in Claude Code.*
 
 ---
 
@@ -185,8 +183,7 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 ### Notes
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
-
-Add your answer here.
+I removed the fake credential-like values and the temporary debug statement from `risky_test.py`. I kept a minimal test function so the file no longer contained the patterns that triggered the hook.
 
 ---
 
@@ -216,19 +213,17 @@ https://github.com/varunbadri2028-creator/devops-micro-internship-pravinmishra/p
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+I reviewed the draft and adjusted the wording to describe the actual changes in my repository, including the pre-commit hook and the review skill. I did this to avoid unsupported claims and make the pull request clear and accurate.
 
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
-
-Add your answer here.
+The draft might contain incorrect information, claim that tests passed when they did not, or describe changes that were never made. Reviewing it helps me catch mistakes and take responsibility for the information I publish.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
-
-Add your answer here.
+The hook and skill are practice files created for my own assignment, so the pull request should target my fork. Sending it to the shared upstream repository could introduce unrelated assignment changes into the class project and affect other contributors.
 
 ---
 
