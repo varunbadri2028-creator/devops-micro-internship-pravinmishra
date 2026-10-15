@@ -170,13 +170,15 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+<img width="642" height="301" alt="Screenshot 2026-10-15 at 16 20 15" src="https://github.com/user-attachments/assets/93bf3a14-8610-44b2-aa0f-58e36d8dcf72" />
+
 
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+<img width="608" height="146" alt="Screenshot 2026-10-15 at 16 22 53" src="https://github.com/user-attachments/assets/ed23ed24-1296-4797-bb24-22aa8c557d14" />
+
 
 ---
 
