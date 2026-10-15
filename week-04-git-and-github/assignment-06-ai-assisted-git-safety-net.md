@@ -306,8 +306,7 @@ Add 3-5 bullet points on what you learned this week.
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
-
-`Add your URL here`
+https://github.com/varunbadri2028-creator/devops-micro-internship-pravinmishra
 
 ---
 
