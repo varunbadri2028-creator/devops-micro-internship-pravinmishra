@@ -50,7 +50,8 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+<img width="587" height="131" alt="Screenshot 2026-10-15 at 15 40 36" src="https://github.com/user-attachments/assets/7fa2ccea-bca6-4bdb-af95-e24ddb87375d" />
+
 
 ---
 
@@ -71,8 +72,8 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 ### Evidence
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
+<img width="802" height="610" alt="Screenshot 2026-10-15 at 15 43 34" src="https://github.com/user-attachments/assets/690a59cd-1d40-4517-a1c5-e7e0bb20cb0e" />
 
-Add your screenshot here.
 
 ---
 
