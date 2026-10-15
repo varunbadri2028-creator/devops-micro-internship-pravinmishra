@@ -135,8 +135,8 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 ### Evidence
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
+<img width="838" height="555" alt="Screenshot 2026-10-15 at 15 52 18" src="https://github.com/user-attachments/assets/b44aa969-fe2a-4e60-82d7-37d80d6b5346" />
 
-Add your screenshot here.
 
 ---
 
