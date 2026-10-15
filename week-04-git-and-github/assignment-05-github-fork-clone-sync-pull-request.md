@@ -20,7 +20,8 @@ Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub a
 
 #### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
-Add your screenshot here.
+<img width="688" height="643" alt="Screenshot 2026-10-15 at 12 35 33" src="https://github.com/user-attachments/assets/dc8b4115-7a24-40b5-b39b-768f655403aa" />
+
 
 ---
 
