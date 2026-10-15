@@ -20,13 +20,14 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+<img width="269" height="110" alt="Screenshot 2026-10-15 at 10 35 28" src="https://github.com/user-attachments/assets/e9771dbf-9734-4e68-bc7c-257d564b8bf6" />
+
 
 ---
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
+<img width="354" height="189" alt="Screenshot 2026-10-15 at 10 35 41" src="https://github.com/user-attachments/assets/3c341f81-f13e-42ba-b263-f07bb869e90f" />
 
-Add your screenshot here.
 
 ---
 
@@ -40,7 +41,8 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+<img width="341" height="46" alt="Screenshot 2026-10-15 at 10 37 33" src="https://github.com/user-attachments/assets/4655dd86-5bef-45fb-b4e1-009d1df7c33a" />
+
 
 ---
 
@@ -53,8 +55,8 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 ### Evidence
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
+<img width="1012" height="756" alt="Screenshot 2026-10-15 at 10 42 30" src="https://github.com/user-attachments/assets/247ebe89-7547-4751-83d2-d9e6d89fb6a3" />
 
-Add your screenshot here.
 
 ---
 
@@ -67,14 +69,14 @@ Confirm both files show as untracked, then stage them individually with `git add
 ### Evidence
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
+<img width="579" height="225" alt="Screenshot 2026-10-15 at 10 46 27" src="https://github.com/user-attachments/assets/293ba430-2e47-494e-932f-2c8798947e76" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
+<img width="544" height="212" alt="Screenshot 2026-10-15 at 10 47 21" src="https://github.com/user-attachments/assets/abf12012-bf49-4b0c-b6e3-3b30b7b1fa89" />
 
-Add your screenshot here.
 
 ---
 
@@ -87,14 +89,14 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 ### Evidence
 
 #### Screenshot 7 — Output of `git commit`
+<img width="608" height="146" alt="Screenshot 2026-10-15 at 10 49 18" src="https://github.com/user-attachments/assets/504f85bc-2234-44f3-aed1-0cb6c79e8f8d" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
+<img width="608" height="146" alt="Screenshot 2026-10-15 at 10 49 18" src="https://github.com/user-attachments/assets/c37ac1c5-e502-4394-8246-db50a55c55ef" />
 
-Add your screenshot here.
 
 ---
 
@@ -108,25 +110,29 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+<img width="707" height="739" alt="Screenshot 2026-10-15 at 10 52 53" src="https://github.com/user-attachments/assets/c9edce71-fd39-4cf7-a3bf-1e96bf50c124" />
+
 
 ---
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+<img width="547" height="162" alt="Screenshot 2026-10-15 at 10 54 14" src="https://github.com/user-attachments/assets/4a5ea8eb-2490-41f4-b5bb-e03fc25c8be4" />
+
 
 ---
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+<img width="612" height="115" alt="Screenshot 2026-10-15 at 10 56 00" src="https://github.com/user-attachments/assets/49c58bdd-3489-4efc-87b8-513d2ff5f3ff" />
+
 
 ---
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+<img width="574" height="195" alt="Screenshot 2026-10-15 at 10 56 20" src="https://github.com/user-attachments/assets/4b869884-f77c-4f90-95c4-45d19f168177" />
+
 
 ---
 
