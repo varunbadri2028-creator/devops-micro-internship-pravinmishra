@@ -108,7 +108,8 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-Add your screenshot here.
+<img width="782" height="374" alt="Screenshot 2026-10-24 at 15 53 16" src="https://github.com/user-attachments/assets/ecbcec9c-34e2-4da9-b6a8-f67e93dcb225" />
+
 
 ---
 
