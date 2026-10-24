@@ -72,7 +72,8 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name â
 
 #### Screenshot 5 â€” Output of `git commit`
 
-Add your screenshot here.
+<img width="852" height="97" alt="Screenshot 2026-10-24 at 16 00 56" src="https://github.com/user-attachments/assets/1e16ef6f-a7d0-4153-8f84-6d49c0789f52" />
+
 
 ---
 
@@ -131,6 +132,7 @@ https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/496
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
+
 https://lnkd.in/p/dDKkznFp
 
 ---
