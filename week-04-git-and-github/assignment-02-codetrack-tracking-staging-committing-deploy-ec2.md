@@ -178,7 +178,8 @@ https://lnkd.in/p/d2Y-zedq
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
+<img width="830" height="631" alt="Screenshot 2026-10-24 at 15 32 54" src="https://github.com/user-attachments/assets/c0b457f3-c60c-466b-8513-c8990fe10097" />
+
 
 ---
 
