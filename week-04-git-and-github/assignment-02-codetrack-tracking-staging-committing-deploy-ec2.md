@@ -146,19 +146,21 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output of `systemctl status nginx --no-pager` showing Nginx `active (running)`
 
-Add your screenshot here.
+<img width="466" height="240" alt="Screenshot 2026-10-24 at 15 26 48" src="https://github.com/user-attachments/assets/7e4444e7-4570-4778-a039-4157535f91dd" />
+
 
 ---
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
+<img width="329" height="215" alt="Screenshot 2026-10-24 at 15 27 03" src="https://github.com/user-attachments/assets/977c4e3b-9a77-4dd0-b3d9-eede0a9d530a" />
+
 
 ---
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
+<img width="809" height="337" alt="Screenshot 2026-10-24 at 15 27 23" src="https://github.com/user-attachments/assets/e19fba4d-8370-43a3-bc85-a997d1a3d56f" />
 
 ---
 
@@ -169,6 +171,7 @@ Add your screenshot here.
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
+
 https://lnkd.in/p/d2Y-zedq
 
 ---
